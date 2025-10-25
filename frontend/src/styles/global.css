@@ -1,0 +1,12 @@
+/* frontend/src/styles/global.css */
+body { font-family: Arial, Helvetica, sans-serif; margin:0; padding:0; background: #fafafa; }
+.app-root { padding: 12px; }
+.topbar { display:flex; align-items:center; gap:20px; }
+.url-form { margin-left: auto; display:flex; gap:8px; align-items:center; }
+.url-form input { padding:6px 8px; border:1px solid #ddd; border-radius:4px; }
+.url-form button { padding:6px 10px; border-radius:4px; border:1px solid #ccc; background:#fff; cursor:pointer; }
+.main { margin-top:20px; }
+.placeholder { padding:40px; color:#666; }
+.canvas-root { border:1px solid #eee; padding:8px; background: #fff; }
+.canvas-stage { max-width: 1200px; }
+.error { color: #900; margin-bottom: 12px; }
